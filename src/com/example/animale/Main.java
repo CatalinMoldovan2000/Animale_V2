@@ -7,15 +7,15 @@ public class Main {
         Animal cow = AnimalFactory.createAnimal("cow");
 
         if (dog != null) {
-            System.out.println(dog.getType() + " makes sound: " + dog.makeSound());
+            System.out.println(dog.getName() + " makes sound: " + dog.makeSound());
         }
 
         if (cat != null) {
-            System.out.println(cat.getType() + " makes sound: " + cat.makeSound());
+            System.out.println(cat.getName() + " makes sound: " + cat.makeSound());
         }
 
         if (cow != null) {
-            System.out.println(cow.getType() + " makes sound: " + cow.makeSound());
+            System.out.println(cow.getName() + " makes sound: " + cow.makeSound());
         }
     }
 }
