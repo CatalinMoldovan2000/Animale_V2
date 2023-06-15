@@ -2,7 +2,7 @@ package com.example.animale;
 
 public class Cow extends Animal {
     @Override
-    public String getType() {
+    public String getName() {
         return "Cow";
     }
 
