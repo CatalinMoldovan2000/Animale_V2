@@ -1,8 +1,12 @@
 package com.example.animale;
 
 public class Cow extends Animal {
+    public Cow(String name) {
+        super(name);
+    }
+
     @Override
-    public String getName() {
+    public String getType() {
         return "Cow";
     }
 
